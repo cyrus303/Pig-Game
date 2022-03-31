@@ -65,7 +65,7 @@ btnHold.addEventListener('click', () => {
 
     //2. check if the player's scpre is >=100
     //if it is end game
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       //end game
       playing = false;
       diceElement.classList.add('hidden');
